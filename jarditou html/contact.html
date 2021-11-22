@@ -4,7 +4,7 @@
 
 <!--Tete de la page-->
 <head>
-    <meta meta charset="UTF-8">
+    <meta  charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -13,7 +13,6 @@
 
 
 <!-- BOOTSTRAP FORMAT POUR TOUT ECRAN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <!--Vers style.css-->
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -21,52 +20,53 @@
 
 <!--Corp de la page-->
 <body>
-    <meta charset="UTF-8">
+
 
     <!--Le haut de la page -->
     <header>
-        <img src="/src/img/jarditou_logo.jpg"width="300" height="100" alt="">
+        <img src="/src/img/jarditou_logo.jpg " width="300" height="100" alt="Femme poussant une broutette" title="jarditou_logo">
 
         <!--TITRE + TEXT-->
-        <h3>PAGE CONTACTE:</h3>
+        <h3>PAGE CONTACT:</h3>
         <p>La qualité depuis 70ans</p>
 
 <!--########################################-->
 <!--#######Accéder a d'autre page###########-->
 <!--########################################-->
-        <div class="lien">
+     <div class="lien">
         <ul>
-            <li>
-                <a href="index.html">Accueil</a> <a href="tableau.html">Tableau</a> <a href="contact.html">Formulaire</a>
-            </li>
-        </ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="tableau.html">Tableau</a> </li>
+                <li><a href="contact.html">Formulaire</a></li>
+        
+         </ul>
+          
     </div>
     
 <!--########################################-->
 <!--########################################-->
 <!--########################################-->
 
-        <img src="/src/img/promotion.jpg"width="1890" height="300" alt="">
+        <img src="/src/img/promotion.jpg" width="1890" height="300" alt="promotion dur les lames de terrasse en image" title="promotion lames de terrasse">
 
-
+    </header>
         
         <!--TITRE-->
-        <h1>Contacte</h1>
+        <h1>Contact</h1>
         <hr>
-        <ul></ul>*Ces zones sont obligatoires</ul>
-<br><br>
+        *Ces zones sont obligatoires
 
 <!--########################################-->
 <!--#######Création du formulaire###########-->
 <!--########################################-->
-<form action="/my-handling-form-page" method="post">
+<form action="http://bienvu.net/script.php " method="post">
 <fieldset>
     <!--titre-->
     <legend>Vos Coordonnées</legend>
     <!--nom-->
-    <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="?" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)"><br>
+    <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)"><br>
     <!--prenom-->
-    <label for="prenom">Votre Prénom*:</label><input type="text" name="nom" id="?" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)"><br><br>
+    <label for="prenom">Votre Prénom*:</label><input type="text" name="prenom" id="prenom" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)"><br><br>
     <!--Sexe-->
     <label for="prenom">Sexe*:</label>
     <input type="radio" name="sexe" value="Féminin"> Féminin 
@@ -74,13 +74,13 @@
     <!--Date de naissance-->
     <label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
     <!--Code postal-->
-    <label for="code postal">Code postal*:</label><input type="text" name="postal" id="postal"><br>
+    <label for="code-postal">Code postal*:</label><input type="text" name="postal" id="code-postal"><br>
     <!--Adresse-->
-    <label for="adresse">Adresse</label><input type="text" name="adresse" id="ads"><br>
+    <label for="adresse">Adresse</label><input type="text" name="adresse" id="adresse"><br>
     <!--Ville-->
-    <label for="Ville">Ville:</label><input type="text" name="ville" id="ville"><br>
+    <label for="Ville">Ville:</label><input type="text" name="Ville" id="Ville"><br>
     <!--Email-->
-    <label for="email">Email*:</label><input type="email" name="email" placeholder="dave.loper@afpa.fr"><br>
+    <label for="email">Email*:</label><input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr"><br>
     <br>
 </fieldset>
 
@@ -109,7 +109,7 @@
     </select><br>
 
 
-    <label for="question">Votre question*</label><textarea name="commentaire" rows="2" cols="20"></textarea><br><br>
+    <label for="question">Votre question*</label><textarea name="question" id="question" rows="2" cols="20"></textarea><br><br>
                     </fieldset><br>
                     <input type="checkbox" name="formulaire" value="ATIC"> *J'accepte le traitement inforamtique de ce formulaire <br><br>
 
@@ -128,10 +128,10 @@
 <!--########################################-->
 
             <div class="lien">
-            <ul>
-                <li>
-                    <a href="">Mention légales</a> <a href="">Horaires</a> <a href="">Plan du site</a>
-                </li>
+                <ul>
+                    <li><a href="">Mention légales</a></li>
+                    <li> <a href="">Horaires</a> </li>
+                    <li> <a href="">Plan du site</a></li>
             </ul>
     </div>
 
@@ -139,7 +139,7 @@
 <!--########################################-->
 <!--########################################-->
 
-    </header>
+    
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
