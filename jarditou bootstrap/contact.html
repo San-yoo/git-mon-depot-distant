@@ -20,8 +20,8 @@
 
 <!--Corp de la page-->
     
-        </div> 
-</nav>
+        <body>
+
     <!--Le haut de la page -->
     <header>
       
@@ -39,12 +39,12 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Jarditou.com</a>
+            <a class="mr-3"  href="index.html" style="color:black" >Jarditou.com </a>
           
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 
-                  <a href="index.html" style="color:black" >Accueil</a><a href="tableau.html" style="color:black" >Tableau</a> <a href="contact.html" style="color:black" >Contact</a>
+                  <a class="mr-3" href="index.html" style="color:black" >Accueil</a><a class="mr-3" href="tableau.html" style="color:black" >Tableau</a> <a href="contact.html" style="color:black" >Contact</a>
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Votre promotion" aria-label="Search">
@@ -63,7 +63,7 @@
 <!--########################################-->
 <!--########################################-->
 
-        <img src="/src/img/promotion.jpg"width="1890" height="300" alt="">
+        <img class="img-fluid" src="/src/img/promotion.jpg" width="1890" height="300" alt="">
 
 
         
@@ -82,12 +82,12 @@
     <form>
       <div class="form-group">
         <label for="Nom">Nom*</label>
-        <input type="text" id="name" class="form-control"placeholder="Veuillez saisir votre nom">
+        <input type="text" id="name" class="form-control" placeholder="Veuillez saisir votre nom">
       </div>
       
         <div class="form-group">
           <label for="prénom">Prénom*</label>
-          <input type="text" id="name" class="form-control"placeholder="Veuillez saisir votre prénom">
+          <input type="text" id="name" class="form-control" placeholder="Veuillez saisir votre prénom">
         </div>
     <!--Sexe-->
 
@@ -112,7 +112,7 @@
     <!--Code postal-->
     <br>
     <div class="form-group">
-      <label for="Code postal">Code postal*</label>
+      <label for="Codepostal">Code postal*</label>
       <input type="text" id="postal" class="form-control">
     </div>
     <!--Adresse-->
@@ -148,22 +148,31 @@
     <!--titre-->
     <h1>Votre demande</h1>
 
-    <label for="sujet">Sujet*:</label>
-    
-    <select id="sujet" size="1">
-        <option value="">Veuillez séléctionner un sujet</option>
-        <option value="">Mes commandes</option>
-        <option value="">Question sur un produit</option>
-        <option value="">Réclamation</option>
-        <option value="">Autres</option>
-    </select><br>
+    <p>Sujet*</p>
 
+    <select class="form-control">
+      <option>Veuillez séléctionner un sujet</option>
+      <option>Mes commandes</option>
+      <option>Question sur un produit</option>
+      <option>Réclamation</option>
+      <option>Autres</option>
+    </select>
+    <br>
+   <form>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Votre question*</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </form>
 
-    <label for="question">Votre question*</label><textarea name="commentaire" rows="2" cols="20"></textarea><br><br>
-                    </fieldset><br>
-                    <input type="checkbox" name="formulaire" value="ATIC"> *J'accepte le traitement inforamtique de ce formulaire <br><br>
+  <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">J'accepte le traitement informatique de ce formulaire</label>
+  </div>
+  <br>
 
-<Button type="submit">Envoyer</Button> <button type="reset">Annuler</button>
+  <input class="btn btn-dark" type="submit" value="Envoyer">
+  <input class="btn btn-dark" type="reset" value="Annuler" >
 
 
 </form>
@@ -185,10 +194,9 @@
         </button>
         <a class="navbar-brand" href="#"></a>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-            <a href=""  style="color:grey"  >Mention légales</a> <a href="" style="color:grey" >Horaires</a> <a href="" style="color:grey" >Plan du site</a>
+            <a href="" class="mr-3"  style="color:grey"  >Mention légales</a> <a href="" class="mr-3" style="color:grey" >Horaires</a> <a href="" style="color:grey" >Plan du site</a>
 <!--########################################-->
 <!--########################################-->
 <!--########################################-->
